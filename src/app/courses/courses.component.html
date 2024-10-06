@@ -1,4 +1,3 @@
-
 <!-- Inputfält för sökning och filtrering av kurser-->
 
 <div class="course-form">
@@ -7,24 +6,24 @@
 </div>
 
 <!-- Kontroll av felaktig input i inputfält -->
- @if(filteredCourses.length === 0) {
-    <div class="errorMsg">Inga kurser hittades...</div>
- }
+@if(filteredCourses.length === 0) {
+<div class="errorMsg">Inga kurser hittades...</div>
+}
 
 <!-- Tabell för utskrift och sortering av kurser -->
 <table class="course-table">
     <thead>
         <tr>
-            <th>Kurskod</th>
-            <th>Kursnamn</th>
-            <th>Progression</th>
+            <th class="click" (click)="sortCode()">Kurskod</th>
+            <th class="click" (click)="sortCourseName()">Kursnamn</th>
+            <th class="click" (click)="sortProgression()">Progression</th>
         </tr>
     </thead>
     <tbody>
         <tr *ngFor="let course of filteredCourses">
-        <td>{{ course.code}}</td>
-        <td>{{ course.coursename }}</td>
-        <td>{{ course.progression }}</td> 
+            <td>{{ course.code}}</td>
+            <td>{{ course.coursename }}</td>
+            <td>{{ course.progression }}</td>
         </tr>
     </tbody>
 </table>

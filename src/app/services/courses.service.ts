@@ -12,10 +12,9 @@ export class CoursesService {
 
   constructor(private http: HttpClient) { }
 
-// Metoder
-getCourses(): Observable<Course[]> {
-  return this.http.get<Course[]>(this.url);
-}
-
-
+  // Metoder
+  getCourses(): Observable<Course[]> {
+    return this.http.get<Course[]>(this.url);
+  }
+  
 }

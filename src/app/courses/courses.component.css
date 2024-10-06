@@ -31,7 +31,6 @@ input[type=text] {
     text-align: left;
     max-width: 700px;
     padding-top: 4vh;
-    padding-bottom: 4vh;
     padding-left: 4vw;
     padding-right: 4vw;
     border-radius: 4px;
@@ -47,17 +46,10 @@ p {
     text-align: left;
 }
 
-button {
-    margin-top: 1vh;
-    margin-bottom: 1vh;
-    margin-left: 0.5vw;
-    border-radius: 5px;
-}
-
 .errorMsg {
     color: rgb(255, 0, 0);
     margin: 0 auto 0 auto;
-    font-size: 0.9em;
+    font-size: 0.8em;
     text-align: left;
     max-width: 700px;
     padding-top: 1vh;
@@ -66,4 +58,13 @@ button {
     padding-right: 4vw;
     border-radius: 4px;
     width: 100%;
+}
+
+.click:hover {
+    cursor: pointer;
+    color: #487272;
+}
+
+.click:active {
+    color: black;
 }
