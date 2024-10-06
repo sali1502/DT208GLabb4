@@ -61,7 +61,7 @@ button {
 
 #errorMessage {
     margin-top: 2vh;
-    color: rgb(185, 0, 145);
+    color: rgb(185, 0, 0);
     font-size: 1em;
     font-family: "Roboto", sans-serif;
 }
