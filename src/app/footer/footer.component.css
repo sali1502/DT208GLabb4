@@ -2,10 +2,10 @@ footer {
     width: 100%;
     text-align: center;
     margin: 0 auto;
-    height: 10vh;
-    padding-top: 4vh;
-    padding-bottom: 4vh;
-    background-color: rgb(91, 68, 92);
+    height: 8vh;
+    padding-top: 3vh;
+    padding-bottom: 2vh;
+    background-color: #487272;
     color: rgb(255, 255, 255);
     font-size: 0.9em;
 }

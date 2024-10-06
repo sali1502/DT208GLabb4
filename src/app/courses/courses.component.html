@@ -1,1 +1,22 @@
-<p>Tabell med kurser</p>
+<!-- Inputfält för sökning och filtrering av kurser-->
+
+
+
+
+<!-- Tabell för utskrift och sortering av kurser -->
+<table class="course-table">
+    <thead>
+        <tr>
+            <th>Kurskod</th>
+            <th>Kursnamn</th>
+            <th>Progression</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let course of courses">
+        <td>{{ course.code}}</td>
+        <td>{{ course.coursename }}</td>
+        <td>{{ course.progression }}</td> 
+        </tr>
+    </tbody>
+</table>

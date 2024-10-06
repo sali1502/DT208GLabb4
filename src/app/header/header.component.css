@@ -2,15 +2,15 @@ header {
     width: 100%;
     text-align: center;
     margin: 0 auto;
-    height: 15vh;
-    padding-top: 5vh;
-    padding-bottom: 4vh;
-    background-color: rgb(91, 68, 92);
+    height: 10vh;
+    padding-top: 3vh;
+    padding-bottom: 2vh;
+    background-color: #487272;
 }
 
 h1 {
     font-family: "Roboto", sans-serif;
-    font-size: 2em;
+    font-size: 1.5em;
     color: white;
     text-align: center;
 }

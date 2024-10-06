@@ -20,7 +20,7 @@ body {
     min-width: 300px;
     font-family: "Roboto", sans-serif;
     background-color: rgb(255, 255, 255);
-    font-size: 1em;
+    font-size: 0.9em;
     text-align: center;
     margin: 0 auto 0 auto;
     width: 100%;
@@ -30,17 +30,10 @@ main {
     min-width: 300px;
     width: 100%;
     margin: 0 auto;
-    height: 70vh;
-}
-
-h2 {
-    margin-top: 5vh;
-    margin-bottom: 5vh;
-    color: rgb(91, 68, 92);
-    font-size: 1.5em;
+    height: 82vh;
 }
 
 p {
-    font-size: 1em;
-    line-height: 1.5em;
+    font-size: 0.9em;
+    line-height: 1em;
 }
