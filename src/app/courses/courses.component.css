@@ -1,15 +1,19 @@
 .course-form {
     background-color: rgb(255, 255, 255);
     margin: 0 auto 0 auto;
+    font-size: 0.9em;
+    text-align: left;
     max-width: 700px;
     padding-top: 4vh;
+    padding-left: 4vw;
+    padding-right: 4vw;
     border-radius: 4px;
     width: 100%;
 }
 
 input[type=text] {
-    width: 100%;
-    padding: 5px;
+    width: 40%;
+    padding: 1px;
     border-radius: 4px;
     margin-top: 1vh;
     margin-bottom: 1vh;
@@ -17,6 +21,7 @@ input[type=text] {
 
 .label {
     font-family: "Roboto", sans-serif;
+    font-size: 0.9em;
 }
 
 .course-table {
@@ -49,9 +54,16 @@ button {
     border-radius: 5px;
 }
 
-#errorMessage {
-    margin-top: 2vh;
-    color: rgb(185, 0, 0);
-    font-size: 1em;
-    font-family: "Roboto", sans-serif;
+.errorMsg {
+    color: rgb(255, 0, 0);
+    margin: 0 auto 0 auto;
+    font-size: 0.9em;
+    text-align: left;
+    max-width: 700px;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    padding-left: 4vw;
+    padding-right: 4vw;
+    border-radius: 4px;
+    width: 100%;
 }
